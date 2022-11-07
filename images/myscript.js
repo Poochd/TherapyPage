@@ -34,7 +34,7 @@ function change3(){
 
 function RickRoll(){
     
-    location.href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley"
+    location.href="images/redirect.htlm"
 }
 
 function myFunction(){
