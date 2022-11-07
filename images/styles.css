@@ -1,0 +1,480 @@
+.Logo{
+
+    height: 250px;
+    width:200 px;
+    
+}
+
+body{
+    background-color: #42d1ff;
+    background: linear-gradient(0deg, rgba(10,137,189,1) 0%, rgba(17,162,255,1) 47%, rgba(51,223,255,1) 100%);
+}
+
+.Title{
+    font-family: "PT Sans Narrow";
+    color:rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    background-color: rgb(000, 145, 150);
+    width:500px; 
+    margin:auto;
+    padding: auto;
+
+
+}
+
+header{
+    
+    height: auto;
+    width:100%; 
+    align-items: center;
+    background-color: rgb(000, 145, 150);
+    border-bottom:solid black 10px ;
+    
+}
+
+nav  {
+   
+    align-items: center;
+    border: 10px ;
+    border-color: black;
+    background-color:#42d1ff;
+    display: flex;
+    flex-direction: row;
+    margin:auto;
+}
+
+.b1{
+    color: aliceblue;
+    border-style: solid;
+    background-color:#42d1ff;
+    font-size:40px;
+    align-items: center;
+    margin:30px;
+    padding:20px
+}
+.b1:hover{
+    cursor:pointer;
+}
+
+.dropdown{
+    position:relative;
+    display:inline-block
+}
+
+.dropdown-content{
+    display:none;
+   position: absolute;
+    overflow: auto;
+    z-index:1;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.541);
+    min-width: 160px;
+
+   
+}
+
+.dropdown-content a{
+    color:black;
+    padding:12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown a:hover{
+    background-color: rgba(128, 219, 122, 0.692);
+}
+
+.show{display:block}
+
+.item{
+    padding:20px;
+    font-style: italic;
+    font-family: "PT Sans Narrow";
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.images{
+    
+    background: #42d1ff;
+    height: fit-content;
+    width:100%; 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+    
+   
+}
+
+.itemImage{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left:20px;
+    padding-right:20px;
+    height: 500px;
+    width: 500px;
+    align-self: center;
+    align-items: center;
+    justify-content: left;
+    position: relative;
+    cursor:pointer;
+    
+}
+
+
+
+
+
+
+.flexbutton{
+display: flex;
+flex-direction: column;
+justify-content:center;
+position:relative;
+flex:1;
+}
+
+
+.b2{
+    color: rgb(7, 7, 7);
+    border-style: solid;
+    border-color: rgb(83, 83, 83);
+    background-color: rgb(218, 218, 218);
+    font-size:30px;
+    align-items: center;
+    margin:30px;
+    padding:20px;
+    height: fit-content;
+    width: fit-content;
+    border-radius: 50%;
+}
+
+
+.b2:hover{
+background-color: black;
+color:white;
+cursor:pointer;
+}
+
+.RickRoll{
+    margin:10px;
+    padding:20px;
+    height: 30xp;
+    width: auto;
+    align-self: center;
+    background-color: #FEB543;
+    color:rgb(0, 0, 0);
+    cursor:pointer;
+    display: inline-block;
+    position: relative;
+    
+}
+
+.RickRoll:hover{
+    background-color: aqua;
+    color:rgb(0, 0, 0);
+}
+
+.texto1{
+
+
+font-family: "PT Sans Narrow";
+color: rgb(0, 0, 0);
+text-align: justify;
+width: 500px;
+word-wrap: break-word;
+margin: 50px;
+
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.column.two{
+background-color: rgb(208, 249, 255)
+}
+
+.texto2{
+
+
+    font-family: "PT Sans Narrow";
+    color: rgb(0, 0, 0);
+    word-wrap: break-word;
+
+    }
+
+
+.SignUpForm{
+    display:flex;
+    flex-direction: column;
+    background-color: rgb(208, 249, 255);
+    height: fit-content;
+    width: 100%;
+    justify-content: space-evenly;
+    padding: 20px;
+ 
+  
+}
+
+.SignUpForm label{
+    align-self:center;
+    height: fit-content;
+    width: fit-content;
+ 
+}
+
+.SignUpForm input{
+    align-self:center;
+    height: fit-content;
+    width: 400px;
+    border: solid white;
+}
+
+
+form h1{
+    font-style: italic;
+    font-family: "PT Sans Narrow";
+    font-weight: bold;
+    font-size: 20px;
+    align-self: center;
+}
+
+
+.products{
+    background-color: rgb(0, 177, 248);
+    display: flex;
+    flex-flow:row;
+    height:fit-content;
+    width: 100%;
+    align-items: center;
+    padding-top: 60px;
+    padding-left: 200px;
+    align-content: center;
+}
+
+.item{
+    display: flex;
+    flex-direction: column;
+    flex:1;
+    width:60%;
+}
+
+.item img{
+height: 250px;
+width: 300px;
+
+}
+
+
+.productTitle{
+    font-style: italic;
+    font-family: "PT Sans Narrow";
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    background: #42d1ff;
+}
+
+.productTitleb{
+    font-style: italic;
+    font-family: "PT Sans Narrow";
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    background: rgba(208, 249, 255);
+}
+
+
+
+.b3{
+    color: rgb(0, 0, 0);
+    border-style: solid;
+    background-color:#FEB543;
+    font-size:20px;
+    padding:20px;
+    height: fit-content;
+    width: fit-content;
+    margin: 20px;
+    align-content: space-around;
+    margin-left: 70px;
+    border-radius: 30%;
+}
+.b3:hover{
+    cursor:pointer;
+    background-color: #416bff;
+}
+
+
+
+.subscription{
+    background-color: rgba(208, 249, 255);
+    display: flex;
+    flex-flow:row;
+    height:fit-content;
+    width: 100%;
+    align-items: center;
+    align-content: center;
+    padding: 50px;
+    
+}
+
+
+.PlanTitle{
+   justify-content: space-evenly;
+    background-color: rgb(43, 43, 43);
+    display: flex;;
+    flex-direction: row;
+    flex:1;
+    color: white;
+    width: 100%;
+    
+}
+
+
+
+.PlanSubTitle{
+    display: flex;;
+    flex-direction: row;
+    flex:1;
+    color: rgb(0, 0, 0);
+   
+}
+
+
+.PlanSubTitle img{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+   
+}
+
+
+.PlanTitle img{
+    width: 50px;
+    height: 50px;
+    align-self: flex-end;
+}
+
+
+.plan{
+    display: flex;
+    flex-direction: column;
+    flex:1;
+    width:fit-content;
+    align-items: center;
+    background-color: rgb(226, 226, 226);
+    margin: 20px;
+
+}
+
+.plan ul li{
+    word-wrap:break-word;
+    width: 50x;
+}
+
+.sub{
+    color: rgb(7, 7, 7);
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    background-color:rgb(127, 203, 42);
+    font-size:40px;
+    align-items: center;
+    margin:30px;
+    padding:20px;
+    font-size: medium;
+    font-weight: bold;
+    height: 50px;
+    width: fit-content;
+    text-align: center;
+}
+
+.sub:hover{
+    background-color: blueviolet;
+    cursor:pointer;
+}
+
+footer{
+    background-color:#42d1ff;
+    border-top: solid black 10px;
+ 
+}
+
+.footerdiv{
+display: flex ;
+flex-direction: row;
+align-content: center;
+margin:2px;
+
+
+}
+
+.footerdiv2{
+display: flex ;
+flex-direction: column;
+flex:1;
+font-size: 10px;
+font-family: "PT Sans Narrow";
+align-content:space-evenly;
+align-items: center;
+gap:0px;
+}
+
+.footerdiv3{
+    display: flex ;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex:1;
+    font-size: 10px;
+    font-family: "PT Sans Narrow";
+    align-content:flex-start;
+    }
+
+.footerTitle{
+    font-size: small;
+    font-family: "PT Sans Narrow";
+    margin: 20px;
+    font-size: 20px;
+    
+}
+
+.footerTitle2{
+    font-size: 15px;
+    font-family: "PT Sans Narrow";
+    text-align: center;
+    border-bottom-style:solid;
+    border-color: rgb(0, 0, 0);
+    border-width: 1px;
+
+}
+
+.footerTitle3{
+    font-size: 10px;
+    font-family: "Lucida Handwriting" ;
+    text-align: center;
+
+}
+
+.footerdiv2 .item{
+height: max-content;
+
+}
+.footerdiv2.item:hover{
+    margin-left:10px;
+    cursor:pointer;
+}
+
+.socialImage{
+    height: 30px;
+    width: 30px;
+    margin: 5px;
+}
+
+.socialImage:hover{
+    margin-left:10px;
+   cursor:pointer;
+}
+
