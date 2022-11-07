@@ -34,7 +34,7 @@ function change3(){
 
 function RickRoll(){
     
-    location.href="redirect.html"
+    location.href="images/redirect.html"
 }
 
 function myFunction(){
