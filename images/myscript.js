@@ -55,3 +55,7 @@ window.onclick=function(event){
         }
     }
 }
+
+function Cliente(){
+    location.href="images/Cliente.html"
+}
