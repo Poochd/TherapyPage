@@ -56,6 +56,11 @@ window.onclick=function(event){
     }
 }
 
-function Cliente(){
+function Clientes(){
     location.href="images/Cliente.html"
 }
+
+function Psicologos(){
+    location.href="images/Psicologo.html"
+}
+
