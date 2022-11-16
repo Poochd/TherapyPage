@@ -57,10 +57,10 @@ window.onclick=function(event){
 }
 
 function Clientes(){
-    location.href="images/Cliente.html"
+    location.href="images/Clientes.html"
 }
 
 function Psicologos(){
-    location.href="images/Psicologo.html"
+    location.href="images/Psicologos.html"
 }
 
