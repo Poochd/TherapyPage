@@ -283,17 +283,16 @@ form h1{
     flex-flow:row;
     height:fit-content;
     width: 100%;
-    align-items: center;
-    padding-top: 60px;
-    padding-right: 60px;
-    align-content: center;
+    justify-content:space-evenly;
 }
 
 .item{
     display: flex;
     flex-direction: column;
     flex:1;
-    width:60%;
+    align-self: center;
+    
+   
 }
 
 .item img{
@@ -349,9 +348,8 @@ width: 300px;
     flex-flow:row;
     height:fit-content;
     width: 100%;
-    align-items: center;
-    align-content: center;
-    padding: 50px;
+    justify-content: space-evenly;
+  
     
 }
 
