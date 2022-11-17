@@ -39,11 +39,11 @@ function RickRoll(){
 
 
 function Clientes(){
-    location.href="Usuarios.html"
+    location.href="Usuario.html"
 }
 
 function Psicologos(){
-    location.href="Psicologos.html"
+    location.href="Psicologo.html"
 }
 
 function myFunction(){
