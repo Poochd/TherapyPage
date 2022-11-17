@@ -38,8 +38,12 @@ function RickRoll(){
 }
 
 
-function Cliente(){
+function Clientes(){
     location.href="images/Usuarios.html"
+}
+
+function Psicologos(){
+    location.href="images/Psicologos.html"
 }
 
 function myFunction(){
