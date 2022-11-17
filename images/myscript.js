@@ -39,12 +39,13 @@ function RickRoll(){
 
 
 function Clientes(){
-    location.href="Usuario.html"
+    location.href="images/Cliente.html"
 }
 
 function Psicologos(){
-    location.href="Psicologo.html"
+    location.href="images/Psicologo.html"
 }
+
 
 function myFunction(){
     document.getElementById("myDropdown").classList.toggle("show")
