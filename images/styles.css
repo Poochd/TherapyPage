@@ -53,7 +53,7 @@ nav  {
     background-color:#42d1ff;
     display: flex;
     flex-direction: row;
-    margin:auto;
+   
 }
 
 .b1{
@@ -526,7 +526,6 @@ margin-left: 20px;
     display: flex;
     flex-direction: column;
     flex: 1;
-    margin: 30px;
     position: relative;
 }
 
@@ -535,15 +534,22 @@ margin-left: 20px;
     flex-direction: row;
    align-items: center;
    position: relative;
+   justify-content: space-evenly;
 }
 
 
 .imgEsc {
     height: 600px;
     width: 400px;
-    
+    border-radius: 10%;
 }
 
+.imgEsc2 {
+    height: 600px;
+    width: 400px;
+    border-radius: 10%;
+    align-self: center;
+}
 
 .row.scenario img{
     border-radius: 50%;
@@ -576,7 +582,7 @@ margin: 50px;
 .titles{
     align-self: flex-start;
     text-align: center;
-    font-size: 30px;
+    font-size: 40px;
 
 }
 
@@ -595,9 +601,9 @@ img.headset{
 
 .headset{
     background: rgb(88,0,255);
-background: linear-gradient(200deg, rgba(88,0,255,1) 0%, rgba(112,0,255,1) 47%, rgba(71,0,254,1) 100%);
-color: white;
-max-width: 100%;
+   background: linear-gradient(200deg, rgba(88,0,255,1) 0%, rgba(112,0,255,1) 47%, rgba(71,0,254,1) 100%);
+   color: white;
+   max-width: 100%;
 
 }
 
@@ -609,6 +615,52 @@ max-width: 100%;
    text-align: center;
    flex-wrap: wrap;
    flex:1;
-  position: static;
+   position: static;
 
+}
+
+#staff{
+    background: rgb(248,255,173);
+    background: linear-gradient(180deg, rgba(248,255,173,1) 0%, rgba(248,255,173,1) 75%, rgba(98,86,229,1) 100%);
+    font-size: 30px;
+    font-family:"PT Sans Narrow";
+    color: #4504FF;
+}
+
+.apply{
+   background-color: #4504FF;
+   color: #F5F5F5;
+   height: 50px;
+   width: fit-content;
+   font-size: 40px;
+   
+}
+.apply:hover{
+    background-color: #f73868;
+    color: #1F1F1F;
+}
+
+.psy{
+height: 500px;
+width: 500px;
+margin-right: 100px;
+margin-left: 500px;
+}
+
+
+.app2{
+    background: rgb(98,86,229);
+     background: linear-gradient(180deg, rgba(98,86,229,1) 0%, rgba(98,86,229,1) 75%, rgba(65,107,255,1) 100%);
+     color: #F5F5F5;
+}
+
+.therapy{
+    height: 500px;
+    width:600px;
+    border-radius: 20%;
+}
+
+.work{
+    background: rgb(65,107,255);
+    background: linear-gradient(180deg, rgba(65,107,255,1) 0%, rgba(65,107,255,1) 53%, rgba(66,209,255,1) 81%);
 }
